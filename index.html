@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>let's play</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <section id="start">
+            <h2> Witaj w grze Game of Life!</h2>
+            <p> Ustaw liczbę wierszy i kolumn i rozpocznij zabawę.</p>
+            <form>
+                <div >
+                    <label for="row-number">Liczba wierszy:</label>
+                    <input type="number" class='form-start' id='row-number' name="row-number" value = "50">
+                    <label for="col-number">Liczba kolumn:</label>
+                    <input type="number" class='form-start'  id='col-number' name="col-number" value = "50">
+                </div>
+                <p>
+                    <button id="start-btn">Rozpocznij grę</button>
+                </p>
+            </form>
+            <div class="alert"></div>
+        </section>
+
+        <section id="board">
+        </section>
+        <section id="game-set">
+            <p>Sterowanie grą</p>
+            <button id="play">graj</button>
+            <button id="pause">pauza</button>
+        </section>
+        <section id="board-set">
+            <form>
+                <fieldset>
+                    <legend>Wybierz sposób zmiany stanu komórek</legend>
+                    <label>
+                        <input type="radio" name="change-board" value="click" checked = "checked" >
+                        Kliknięcie myszką <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="change-board" value="over-change"  >
+                        Najechanie myszką - zmiana stanu <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="change-board" value="over-alive">
+                        Najechanie myszką - ożywianie <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="change-board" value="over-dead">
+                        Najechanie myszką - uśmiercanie <br>
+                    </label>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

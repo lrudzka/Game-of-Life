@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+#board div {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    float: left;
+}
+
+#board div.live {
+    background-color: #000000;
+}
+
+#board {
+ //   margin: 30px auto 0;
+    margin: 20px auto;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+#game-menu {
+    margin: 50px auto;
+    width: auto;
+}
+#game-set {
+    width: 200px;
+    margin: 0 100px;
+    display: none;
+    transform: translate(0, -100px);
+    border: 3px solid #316ac8;
+    padding-bottom: 20px;
+
+}
+
+#play, #pause {
+    width: 150px;
+    height: 30px;
+    background-color: #316ac8;
+    color: white;
+    border-radius: 30%;
+    margin-left: 25px;
+    font-size: 23px;
+
+}
+#start {
+    font-size: 25px;
+    width: 700px;
+    margin: 50px auto;
+}
+#start input {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+}
+#start h2 {
+    color: #902d17;
+}
+#start-btn {
+    width: 200px;
+    height: 40px;
+    margin-left: 200px;
+    font-size: 25px;
+    background-color: #902d17;
+    border-radius: 20px;
+    color: white;
+}
+button {
+    cursor: pointer;
+}
+#game-set p {
+    margin-top: -13px;
+    background-color: #cccccc;
+    color: #316ac8;
+    font-size: 20px;
+    margin-left: 39px;
+    width: 123px;
+}
+#game-set .clicked {
+    border: 3px solid #0b182e;
+}
+#board-set {
+    display: none;
+    width: 300px;
+    margin: 0 100px;
+    padding-bottom: 20px;
+    float: right;
+    transform: translate(0, -200px);
+}
+
+}
+#board-set fieldset {
+    font-size: 12px;
+}
