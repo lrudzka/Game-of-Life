@@ -7,6 +7,8 @@ At each step in time the cells can get alive or dead according to their 8 neighb
 - any live cell with two or three live neighbors lives on to the next generation; 
 - any live cell with more than three live neighbors dies, as if by overpopulation; 
 - any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction. 
+
+
 The user interacts with the animation by setting up the start state, or by changing the current state while the game is paused.
 
 ## Technologies
