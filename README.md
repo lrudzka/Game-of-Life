@@ -12,6 +12,6 @@ At each step in time the cells can get alive or dead according to their 8 neighb
 The user interacts with the animation by setting up the start state, or by changing the current state while the game is paused.
 
 ## Technologies
-object-oriented JavaScript
+The Application was created using object-oriented JavaScript
 
 
